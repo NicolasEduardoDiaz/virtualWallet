@@ -1,0 +1,48 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-1);
+    background-image: url(../storage/image/group.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logotipe{
+    /*background: red;*/
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logotipe img{
+    width: 36px;
+    height: auto;
+}
+
+.logotipe h3{
+    color: var(--color-3);
+    margin-left: 10px;
+    margin-right: 240px;
+}
+
+.welcome{
+    /*background: green;*/
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+.welcome h1{
+    color: white;
+}
