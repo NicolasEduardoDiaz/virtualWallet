@@ -41,8 +41,47 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 38px;
+    margin-bottom: 30px;
 }
 
 .welcome h1{
     color: white;
+}
+
+.txt_delgado{
+    font-weight: lighter;
+}
+
+.bars{
+    /*background: violet;*/
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: row;
+    margin-top: 38px;
+    padding-left: -10px;
+    justify-content: space-between;
+}
+
+.savings{
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.savings img{
+    width: 150px;
+    height: auto;
+}
+
+.savings small{
+    color: var(--color-3);
+}
+
+.savings h2{
+    color: var(--color-3);
+}
+
+.activities{
+    background: white;
+    padding-top: 30px;
+    width: auto;
+    height: 500px;
 }
