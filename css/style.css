@@ -1,12 +1,13 @@
 @import url(variables.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
 }
 
-body{
+body {
     background: var(--color-1);
     background-image: url(../storage/image/group.svg);
     background-size: cover;
@@ -15,73 +16,118 @@ body{
     position: relative;
 }
 
-.logotipe{
-    /*background: red;*/
+.logotipe {
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 3vh;
 }
 
-.logotipe img{
+.logotipe img {
     width: 36px;
     height: auto;
 }
 
-.logotipe h3{
+.logotipe h3 {
     color: var(--color-3);
     margin-left: 10px;
     margin-right: 240px;
 }
 
-.welcome{
-    /*background: green;*/
+.trhee_lines{
+    margin-left: auto;
+}
+
+.welcome {
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: column;
-    margin-top: 38px;
-    margin-bottom: 30px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
-.welcome h1{
+.welcome h1 {
     color: white;
 }
 
-.txt_delgado{
+.txt_delgado {
     font-weight: lighter;
 }
 
-.bars{
-    /*background: violet;*/
+.bars {
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
-    margin-top: 38px;
-    padding-left: -10px;
+    margin-top: 2vh;
     justify-content: space-between;
 }
 
-.savings{
+.savings {
     flex-direction: column;
-    padding-bottom: 50px;
+    padding-bottom: 1vh;
 }
-.savings img{
+
+.savings img {
     width: 150px;
     height: auto;
 }
 
-.savings small{
+.savings small {
     color: var(--color-3);
 }
 
-.savings h2{
+.savings h2 {
     color: var(--color-3);
 }
 
-.activities{
+.activities {
     background: white;
     padding-top: 30px;
     width: auto;
-    height: 500px;
+    height: 105vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-left:20px; 
+}
+
+.items{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    justify-content: space-evenly;
+    column-gap: 3vh;
+    padding-bottom: 2vh;
+}
+
+.item3{
+    width: 10vh;
+    display: flex;
+    flex-direction: row;
+    width: 13vh;
+    height: 16vh;
+}
+
+.sub_items{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: 0.5vh 0.5vh 0.5vh;*/
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .logotipe h3 {
+        margin-right: 50px; /* Adjust as needed */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logotipe h3 {
+        margin-right: 10px; /* Adjust as needed */
+    }
 }
