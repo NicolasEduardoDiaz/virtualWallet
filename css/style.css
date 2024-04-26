@@ -98,7 +98,7 @@ body {
     overflow-x: auto;
     justify-content: space-evenly;
     column-gap: 3vh;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
 }
 
 .item3{
@@ -118,6 +118,43 @@ body {
     align-items: center;
     /*box-shadow: 0.5vh 0.5vh 0.5vh;*/
 }
+
+.sub_transaction{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow{
+    width: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 2vh;
+}
+
+.price{
+    display: flex;
+    margin-left: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
