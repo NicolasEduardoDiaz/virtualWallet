@@ -1,0 +1,89 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+
+
+
+.logotipe {
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.logotipe img {
+    width: 36px;
+    height: auto;
+}
+
+.logotipe h3 {
+    color: var(--color-3);
+    margin-left: 10px;
+    margin-right: 240px;
+}
+
+.trhee_lines{
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+.footer{
+    /* background: red; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer__ul{
+    background: var(--color-1);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0;
+}
+.footer__ul li{
+    list-style: none;
+    background: var(--color-1);
+    border-radius: 100%;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
+    width: 5vh;
+    height: auto;
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .logotipe h3 {
+        margin-right: 50px; /* Adjust as needed */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logotipe h3 {
+        margin-right: 10px; /* Adjust as needed */
+    }
+}

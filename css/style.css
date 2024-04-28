@@ -96,6 +96,7 @@ body {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
+    scrollbar-width: none;
     justify-content: space-evenly;
     column-gap: 3vh;
     padding-bottom: 3vh;
@@ -196,10 +197,6 @@ body {
     width: 5vh;
     height: auto;
 }
-
-
-
-
 
 
 
