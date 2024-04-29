@@ -1,0 +1,50 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--color-1);
+    background-image: url(../storage/image/backgraundCards.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logotipe {
+    border: 1px solid red;
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.logotipe img {
+    width: 36px;
+    height: auto;
+}
+
+.logotipe h3 {
+    color: var(--color-3);
+    margin-left: 10px;
+    margin-right: 240px;font-family: "SF-pro-text-bold";
+}
+
+.trhee_lines{
+    border: 1px solid violet;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.page_balance{
+    background: white;
+    height: 66vh;
+}
