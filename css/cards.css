@@ -11,6 +11,7 @@
 
 .logotipe {
     padding: var(--space-layout-padding-lr);
+    padding-bottom: 3vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,12 +27,95 @@
     color: var(--color-3);
     margin-left: 10px;
     margin-right: 240px;
+    font-family: "SF-pro-text-bold";
 }
 
 .trhee_lines{
     margin-left: auto;
 }
 
+.investing{
+    padding: var(--space-layout-padding-lr);
+    color: var(--color-1);
+    padding-bottom: 2vh;
+}
+
+.investing h1{
+    font-family: "SF-pro-text-bold";
+    padding-bottom: 2vh;
+}
+
+.investing_tips{
+    /*border: 1px solid red;*/
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    width: 43vh;
+    height: 18vh;
+    position: relative;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); /* Agrega una sombra al elemento2 */
+    z-index: 2;
+}
+
+.exit{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.exit img{
+    height: 4vh;
+    padding-left: 8vh;
+    padding-top: 1vh;
+}
+
+
+.sub_tips{
+    /*border: 1px solid blue;*/
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    border-top-right-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+    width: 19vh;
+    height: 18vh;
+    background: #E1FFEF;
+    display: flex;
+    align-items: center;
+}
+
+.investing_tips img{
+    /*border: 1px solid green;*/
+    width: 13vh;
+}
+
+.sub_etf{
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vh;
+    column-gap: 2vh;
+}
+
+.sub_etf h3{
+    padding-bottom: 1vh;
+    font-family: "SF-pro-text-bold";
+}
+
+.sub_etf small{
+    font-family: "SF-pro-text-regular";
+    padding-bottom: 1vh;
+}
+
+.sub_etf small:last-child{
+    border-radius: 2vh;
+    background: #00DDA3;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "SF-pro-text-bold";
+}
 
 
 

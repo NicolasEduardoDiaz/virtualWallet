@@ -32,7 +32,7 @@ body {
 .logotipe h3 {
     color: var(--color-3);
     margin-left: 10px;
-    margin-right: 240px;
+    margin-right: 240px;font-family: "SF-pro-text-bold";
 }
 
 .trhee_lines{
@@ -91,6 +91,10 @@ body {
     padding-left:20px; 
 }
 
+.activities h2{
+    font-family: "SF-pro-text-bold";
+}
+
 .items{
     padding-top: 2vh;
     display: flex;
@@ -111,17 +115,19 @@ body {
 }
 
 .sub_items{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*box-shadow: 0.5vh 0.5vh 0.5vh;*/
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); /* Agrega una sombra al elemento2 */
+    z-index: 2;
 }
 
 .Transaccion{
     padding-bottom: 2.5vh;
+    font-family: "SF-pro-text-bold";
 }
 
 .all_transaccions{
@@ -152,12 +158,20 @@ body {
     padding-left: 1vh;
 }
 
+.food_price h3{
+    font-family: "SF-pro-text-bold";
+}
+
 .price_date{
     /*border: 1px solid gray;*/
     display: flex;
     flex-direction: column;
     margin-left: auto;
     padding-right: 1vh;
+}
+
+.price_date h3{
+    font-family: "SF-pro-text-bold";
 }
 
 .date{
