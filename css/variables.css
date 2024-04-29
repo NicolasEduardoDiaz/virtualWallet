@@ -15,3 +15,8 @@
     font-family: "SF-pro-text-regular";
     src: url("../storage/fonts/FontsFree-Net-SFProText-Regular.ttf");
 }
+
+@font-face {
+    font-family: "SF-pro-text-semibold";
+    src: url("../storage/fonts/FontsFree-Net-SFProText-Semibold.ttf");
+}
