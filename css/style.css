@@ -121,15 +121,7 @@ body {
     scrollbar-width: none;
     justify-content: space-evenly;
     column-gap: 3vh;
-    padding-bottom: 3vh;
-}
-
-.item3{
-    width: 10vh;
-    display: flex;
-    flex-direction: row;
-    width: 13vh;
-    height: 16vh;
+    padding-bottom: 1vh;
 }
 
 .sub_items{
@@ -142,6 +134,14 @@ body {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); /* Agrega una sombra al elemento2 */
     z-index: 2;
 }
+.item3{
+    width: 10vh;
+    display: flex;
+    flex-direction: row;
+    width: 13vh;
+    height: 16vh;
+}
+
 
 .Transaccion{
     padding-bottom: 2.5vh;
@@ -204,7 +204,7 @@ body {
 }
 .footer__ul{
     background: var(--color-1);
-    height: 50px;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
