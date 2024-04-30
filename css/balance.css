@@ -9,16 +9,16 @@
 
 
 body {
-    background-color: var(--color-1);
-    background-image: url(../storage/image/backgraundCards.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
 
+
+
 .logotipe {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
@@ -34,17 +34,170 @@ body {
 .logotipe h3 {
     color: var(--color-3);
     margin-left: 10px;
-    margin-right: 240px;font-family: "SF-pro-text-bold";
+    margin-right: 210px;font-family: "SF-pro-text-bold";
 }
 
 .trhee_lines{
-    border: 1px solid violet;
+    /*border: 1px solid violet;*/
+    margin-left: auto;
+}
+
+.circle {
+    /*border: 1px solid red;*/
+    width: 110%; 
+    height: 40%; 
+    background-color: var(--color-1);
+    border-radius: 50%; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: -1000;
+}
+
+.circle2{
+    /*border: 1px solid red;*/
+    width: 24vh; 
+    height: 24vh; 
+    background-color: var(--color-5);
+    border-radius: 50%; 
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.into_balance{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.into_balance h2{
+    color: var(--color-4);
+}
+
+.table_subindi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border: 1px solid red;*/
+    position: relative;
+    height: 3.5ch;
+    margin-top: 29cqb;
+}
+
+.assets{
+    /*border: 1px solid blue;*/
+    border-radius: 40px;
+    display: flex;
+    background-color: var(--color-1);
+    height: 3.5ch;
+    width: 13ch;
+}
+
+.assets h4{
+    /*border: 1px solid green;*/
+    color: var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13ch;
+}
+
+.debt{
+    border: 1px solid var(--color-3);
+    border-radius: 40px;
+    display: flex;
+    height: 3.5ch;
+    width: 13ch;
+}
+
+.debt h4{
+    color: var(--color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13ch;
+}
+
+.income{
+    border: 1px solid var(--color-5);
+    border-radius: 40px;
+    display: flex;
+    height: 3.5ch;
+    width: 13ch;
+}
+
+.income h4{
+    color: var(--color-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13ch;
+}
+
+.table_balance{
+    /*border: 1PX solid red;*/
+    margin-top: 2vh;
+    height: 25ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_balance img{
+    /*border: 1px solid green;*/
+    width: 48vh;
 }
 
 
-.page_balance{
-    background: white;
-    height: 66vh;
+
+
+
+
+
+
+
+
+.footer{
+    /* background: red; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer__ul{
+    background: var(--color-1);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0;
+}
+.footer__ul li{
+    list-style: none;
+    background: var(--color-1);
+    border-radius: 100%;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
+    width: 5vh;
+    height: auto;
 }

@@ -46,11 +46,12 @@
 }
 
 .investing_tips{
-    border: 1px solid red;
-    width: 43vh; /* Ancho de la caja */
-    height: 19vh; /* Altura de la caja */
-    background-color: #f0f0f0; /* Color de fondo de la caja */
-    position: relative; /* Establece la posición relativa para posicionar el círculo */
+    /*border: 1px solid red;*/
+    border-radius: 2vh;
+    width: 43vh; 
+    height: 19vh;
+    background-color: #f0f0f0; 
+    position: relative;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     display: flex;
@@ -58,7 +59,7 @@
   }
   
   .circle {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 26vh; /* Diámetro del círculo */
     height: 26vh; /* Diámetro del círculo */
     background-color: #E1FFEF;
@@ -74,17 +75,17 @@
 
 .circle img {
     width: 16vh;
-    max-width: 100%; /* Asegura que la imagen no supere el tamaño del círculo */
-    max-height: 100%; /* Asegura que la imagen no supere el tamaño del círculo */
+    max-width: 100%;
+    max-height: 100%; 
 }
 
 .sub_etf{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
-    justify-content: end; /* Alinea el contenido a la derecha */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
     align-items: center; /* Centra verticalmente el contenido */
     flex-direction: column;
-    padding-left: 3vh;
+    padding-left: 22vh;
     column-gap: 2vh;
     height: 100%; /* Ajusta la altura para ocupar toda la altura del contenedor */
 }
