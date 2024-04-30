@@ -46,55 +46,49 @@
 }
 
 .investing_tips{
-    /*border: 1px solid red;*/
-    border-radius: 2vh;
+    border: 1px solid red;
+    width: 43vh; /* Ancho de la caja */
+    height: 19vh; /* Altura de la caja */
+    background-color: #f0f0f0; /* Color de fondo de la caja */
+    position: relative; /* Establece la posición relativa para posicionar el círculo */
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
     display: flex;
     align-items: center;
-    width: 43vh;
-    height: 18vh;
-    position: relative;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); /* Agrega una sombra al elemento2 */
-    z-index: 2;
+  }
+  
+  .circle {
+    border: 1px solid red;
+    width: 26vh; /* Diámetro del círculo */
+    height: 26vh; /* Diámetro del círculo */
+    background-color: #E1FFEF;
+    border-radius: 50%; /* Hace que el círculo tenga bordes redondeados, formando un círculo */
+    position: absolute; /* Establece la posición absoluta para posicionar el círculo dentro de la caja */
+    top: 50%; /* Posiciona el círculo en el centro verticalmente */
+    left: 20%; /* Posiciona el círculo en el centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el círculo con respecto a su propio tamaño */
+    display: flex; /* Establece el contenedor como flex */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
 }
 
-.exit{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.exit img{
-    height: 4vh;
-    padding-left: 8vh;
-    padding-top: 1vh;
-}
-
-
-.sub_tips{
-    /*border: 1px solid blue;*/
-    border-top-left-radius: 3vh;
-    border-bottom-left-radius: 3vh;
-    border-top-right-radius: 10vh;
-    border-bottom-right-radius: 10vh;
-    width: 19vh;
-    height: 18vh;
-    background: #E1FFEF;
-    display: flex;
-    align-items: center;
-}
-
-.investing_tips img{
-    /*border: 1px solid green;*/
-    width: 13vh;
+.circle img {
+    width: 16vh;
+    max-width: 100%; /* Asegura que la imagen no supere el tamaño del círculo */
+    max-height: 100%; /* Asegura que la imagen no supere el tamaño del círculo */
 }
 
 .sub_etf{
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     display: flex;
+    justify-content: end; /* Alinea el contenido a la derecha */
+    align-items: center; /* Centra verticalmente el contenido */
     flex-direction: column;
     padding-left: 3vh;
     column-gap: 2vh;
+    height: 100%; /* Ajusta la altura para ocupar toda la altura del contenedor */
 }
+
 
 .sub_etf h3{
     padding-bottom: 1vh;
@@ -120,6 +114,7 @@
     color: white;
     font-family: "SF-pro-text-bold";
 }
+
 
 .title_cards{
     font-family: "SF-pro-text-bold";
