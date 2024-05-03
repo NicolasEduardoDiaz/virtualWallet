@@ -42,7 +42,7 @@
     height: 40%; 
     background: no-repeat;
     background-size: cover;
-    background-color: var(--color-1);
+    background-color: var(--color-6);
     background-image: url(../storage/image/backgraundCards.svg);
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
     /*border: 1px solid red;*/
     width: 24vh; 
     height: 24vh; 
-    background-color: var(--color-2);
+    background-color: var(--color-7);
     border-radius: 50%; 
     position: absolute;
     left: 50%;
@@ -165,8 +165,8 @@
 }
 
 .card_spam{
-    background: var(--color-5);
-    border: 1px solid red;
+    background: var(--color-7);
+    /*border: 1px solid red;*/
     height: 16cap;
     width: 36cap;
     display: flex;
@@ -178,7 +178,7 @@
     width: 42vh;
     height: 15vh;
     margin: 3vh 3vh 3vh 3vh;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
